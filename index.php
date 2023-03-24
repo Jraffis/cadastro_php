@@ -9,6 +9,9 @@
         <title>Cadastro</title>
     </head>
     <body>
+        <?php 
+            include("menu.php")
+        ?>
         <h1>Cadastre-se</h1>
         <div class="container">
         <form action="recebidos.php" method="get">

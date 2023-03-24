@@ -9,6 +9,9 @@
         <title>Dados Recebidos</title>
     </head>
     <body>
+        <?php 
+            include("menu.php")
+        ?>
         <div class="container">
         <h1>Dados Recebidos</h1>
         <p><b>Nome Completo recebido foi: </b><?php echo $_GET["nome"]; ?> </p>
